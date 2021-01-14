@@ -9,4 +9,5 @@ Set of python scripts used in my expriments with WSD, EL and summarization.
 - FineTuneBERT.py: trains, evaluates or uses for inference a model based on [BERT](https://github.com/google-research/bert) and fine-tuned using pairs of sentences, such as those used for [GlossBERT](https://github.com/HSLCY/GlossBERT)
 - Classify server.py: HTTP server exposing a `/classify` method that, given a pair of sentences, returns a classification score from a model fine-tuned with FineTuneBERT.py
 
+In addition, notebooks folder contains some JupyterLan notebooks used to analyze GlossBERT models and some corpora. 
   
